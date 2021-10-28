@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Cargar Producto de Cafe</title>
+</head>
+
+<body>
+  <h1 align="center">Cargar Producto de Cafe</h1>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <p>
+          <label>Descripcion del producto:</label> <br>
+          <textarea name="descripcion-producto" rows="10" cols="150"></textarea>
+        </p>
+        <p>
+          <label>Precio del producto:</label> <br>
+          <input id="precio-producto" class="form-control" type="text"><br>
+        </p>
+        <p>
+          <label>Stock disponible:</label> <br>
+          <input id="stock-disponible" class="form-control" type="text"><br>
+        </p>
+        <p>
+        <p>
+          <label>Agregar imagen del producto:</label>
+          <input type="file" name="adjunto" accept=".jpg,.png" multiple />
+        </p>
+        <br>
+        <div id="lower" align="center">
+
+          <button id="cargar-producto" class="btn btn-success" type="button">Cargar Producto</button>
+          <button id="cancelar-cuenta" class="btn btn-success" type="button">Cancelar</button>
+
+          <!-- Submit Button -->
+
+        </div>
+
+
+      </div>
+    </form>
+
+  </div>
+  </br>
+  </br>
+
+</body>
+
+</html>
